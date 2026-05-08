@@ -1,0 +1,21 @@
+Dies ist eine digitale Implementierung des klassischen Brettspiels Mühle (Nine Men's Morris) gegen eine KI.
+
+Spielprinzip: Zwei Spieler (Mensch vs. KI) versuchen, drei Steine in einer Reihe zu platzieren und dadurch "Mühlen" zu bilden. Das Spiel läuft in drei Phasen:
+
+- Setzphase: Abwechselnd werden 9 Steine pro Spieler auf das Brett gesetzt
+- Zugphase: Steine werden zu benachbarten Feldern bewegt (bei nur 3 Steinen: freies Springen)
+- Schlagphase: Bei jeder gebildeten Mühle darf ein gegnerischer Stein entfernt werden
+
+Ziel: Den Gegner auf unter 3 Steine reduzieren oder bewegungsunfähig machen.
+
+Features:
+
+- Responsive HTML5-Canvas-Grafik
+- Sound-Effekte für Aktionen
+- Animierte Spielzüge
+- Anzeige geschlagener Steine
+- KI mit Minimax-Algorithmus (3 Züge voraus)
+- Touch-/Maus-Unterstützung
+
+Der Spieler (weiße Steine) spielt gegen die KI (schwarze Steine) auf dem traditionellen Mühle-Brett mit drei konzentrischen Quadraten.
+
