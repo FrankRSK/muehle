@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Mühle gegen KI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mühle gegen KI</h1>
+
+    <div class="captured-area" id="captured-by-player1"></div>
+
+    <div id="game-area">
+        <div id="game-info">
+            <p id="status-text">Spiel wird geladen...</p>
+            <p id="phase-text"></p>
+        </div>
+        <div id="game-container">
+            <canvas id="muehle-canvas"></canvas>
+        </div>
+        <button id="reset-button">Neues Spiel starten</button>
+    </div>
+
+    <div class="captured-area" id="captured-by-player2"></div>
+
+    <audio id="place-sound" src="sounds/place.mp3"></audio>
+    <audio id="move-sound" src="sounds/move.mp3"></audio>
+    <audio id="remove-sound" src="sounds/remove.mp3"></audio>
+    <audio id="win-sound" src="sounds/win.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
